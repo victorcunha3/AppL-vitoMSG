@@ -1,0 +1,185 @@
+body{
+    font-family: monospace;
+}
+
+.container {
+  width: 50%;
+  height: 50%;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 120px;
+}
+  
+.publication {
+  border: 1px solid #ccc;
+  margin-bottom: 20px;
+  padding: 10px;
+  background: #0096c7;
+  border-radius: 5px;
+}
+  
+.publication p {
+    margin: 5px 0;
+}
+  
+.publication .author {
+    font-weight: bold;
+}
+  
+.publication .date {
+    font-style: italic;
+}
+
+button {
+    margin: 0;
+    padding: 0;
+    border: none;
+    background: none;
+    font-family: inherit;
+    font-size: inherit;
+    cursor: pointer;
+    outline: none;
+  }
+  
+  .botao-moderno {
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background: #0073b7;
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: all 0.3s ease-in-out; 
+  }
+
+  .botao-moderno-TODO {
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background: #8c8c8c;
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: all 0.3s ease-in-out; 
+  }
+
+  
+  
+  .botao-moderno:hover {
+    background: #0096c7;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  .botao-moderno:active {
+    background: #005987;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+ 
+  .botao-moderno:focus {
+    box-shadow: 0 0 0 2px rgba(0, 123, 255, 0.5);
+  }
+
+
+  button[class="bot-go"] {
+    background-color: #fff;
+    border: none;
+    border-radius: 50%;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    cursor: pointer;
+  }
+  
+  button[onclick="goBack()"] i {
+    font-size: 20px;
+    color: #007bff; 
+  }
+
+@media only screen and (max-width: 768px) {
+  /* Adaptação para celulares */
+  body {
+    font-size: 14px;
+  }
+  
+  .container {
+    max-width: 480px;
+    width: 60%;
+    height: 60%;
+  }
+  
+  .botao-moderno {
+    font-size: 14px;
+    padding: 8px 12px;
+  }
+  
+  h2 {
+    font-size: 20px;
+  }
+  
+  .publicacao img {
+    max-width: 80%;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  /* Adaptação para smartphones */
+  .container {
+    padding: 15px;
+  }
+  
+  .publicacao {
+    margin-bottom: 10px;
+  }
+}
+
+/* Lista de publicações */
+#publication-list {
+  list-style: none;
+  padding: 0;
+}
+
+/* Cada publicação */
+.publicacao {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 15px;
+  margin-bottom: 15px;
+}
+
+/* Título da publicação */
+.publicacao-titulo {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+/* Conteúdo da publicação */
+.publicacao-conteudo {
+  margin-bottom: 10px;
+}
+
+/* Data e hora da publicação */
+.publicacao-data {
+  font-size: 12px;
+  color: #aaa;
+  text-align: right;
+}
+
+  
+.lovito-c{
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color:#0096c7;
+  z-index: 100;
+  text-align: center;
+
+}
+
+.botao-container{
+  display: flex;
+}

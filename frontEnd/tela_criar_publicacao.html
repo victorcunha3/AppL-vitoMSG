@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <script defer src="./assets/criar_publicacao.js"></script>
+    <link rel="stylesheet" href="./assets/style_criar_publi.css">
+    <title>criarPublicação</title>
+</head>
+<body>
+    <button onclick="goBack()">
+        <i class="fas fa-arrow-left"></i>
+    </button>
+    <div class="container">
+        <h2>Criar Publicação</h2>
+        <form id="create-post-form">
+          <label for="content">Conteúdo</label>
+          <textarea class="texto-personalizado" id="content" name="content" rows="4" required></textarea><br>
+          <label for="visibility">Visibilidade:</label>
+          <select id="visibility" name="visibility" required>
+            <option value="publico">Publico</option>
+            <option value="privado">Privado</option>
+          </select><br>
+          <button type="submit">Criar</button>
+        </form>
+      </div>
+</body>
+</html>

@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,700');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0; 
+    font-family: Raleway, sans-serif;
+}
+
+body {
+    background: linear-gradient(90deg, #C7C5F4, #776BCC);     
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    flex-direction: column; /* Adicionado para centralizar verticalmente o conteúdo */
+}
+
+.container h2 {
+    color: #fff; /* Cor do texto alterada para branco */
+}
+
+.container form {
+    background: #fff; /* Cor de fundo alterada para branco */
+    padding: 20px;
+    border-radius: 10px; /* Borda arredondada adicionada */
+    box-shadow: 0px 0px 24px rgba(0, 0, 0, 0.1); /* Sombra adicionada */
+    margin-top: 20px; /* Espaço superior adicionado */
+}
+
+.container form label {
+    margin-bottom: 10px;
+    display: block;
+    color: #333; /* Cor do texto do rótulo alterada */
+}
+
+.container form input[type="text"],
+.container form input[type="email"],
+.container form input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px; /* Espaço inferior adicionado */
+    border: 1px solid #ccc; /* Cor da borda alterada */
+    border-radius: 5px; /* Borda arredondada adicionada */
+}
+
+.container form button[type="submit"] {
+    background-color: #4C489D; /* Cor de fundo do botão alterada */
+    color: #fff; /* Cor do texto do botão alterada para branco */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px; /* Borda arredondada adicionada */
+    cursor: pointer;
+    transition: background-color 0.3s; /* Transição suave adicionada */
+}
+
+.container form button[type="submit"]:hover {
+    background-color: #6A679E; /* Cor de fundo do botão alterada no hover */
+}
