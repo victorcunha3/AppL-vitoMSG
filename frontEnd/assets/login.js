@@ -4,7 +4,7 @@ document.getElementById('formulario-entrada').addEventListener('submit', functio
     const username = document.getElementById('username').value;
     const password = document.getElementById('password').value;
 
-    const URLapi = 'http://127.0.0.1:8000/chat/token/';
+    const URLapi = 'https://applovito.onrender.com/chat/token/';
     fetch(URLapi, {
         method: "POST",
         headers: {

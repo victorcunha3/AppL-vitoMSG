@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', function() {
       loadingMessage.textContent = 'Aguarde um momento...';
       document.body.appendChild(loadingMessage);
 
-      fetch('http://localhost:8000/chat/publicacao/', {
+      fetch('https://applovito.onrender.com/chat/publicacao/', {
         headers: {
           'Authorization': `Bearer ${token}`
         }

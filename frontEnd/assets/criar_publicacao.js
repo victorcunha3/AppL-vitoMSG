@@ -11,7 +11,7 @@ document.getElementById('create-post-form').addEventListener('submit', function(
       return;
     }
   
-    const apiUrl = 'http://localhost:8000/chat/publicacao/';
+    const apiUrl = 'https://applovito.onrender.com/chat/publicacao/';
   
     fetch(apiUrl, {
       method: 'POST',

@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', function() {
         return;
     }
 
-    fetch('http://localhost:8000/chat/mensagens-recebidas/', {
+    fetch('https://applovito.onrender.com/chat/mensagens-recebidas/', {
         headers: {
             'Authorization': `Bearer ${token}`
         }

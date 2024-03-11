@@ -6,7 +6,7 @@ document.getElementById('formulario-registro').addEventListener('submit', async 
     const password = document.getElementById('password').value;
     
     try {
-      const response = await fetch('http://localhost:8000/chat/signup/', {
+      const response = await fetch('https://applovito.onrender.com/chat/signup/', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json'

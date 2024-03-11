@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', function() {
     // Buscar usuários
-    fetch('http://localhost:8000/chat/usuarios/')
+    fetch('https://applovito.onrender.com/chat/usuarios/')
         .then(response => response.json())
         .then(users => {
             const recipientSelect = document.getElementById('recipient');
