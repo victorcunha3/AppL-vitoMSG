@@ -30,6 +30,7 @@ document.getElementById('formulario-entrada').addEventListener('submit', functio
         const token = data.access;
         console.log('Token:', token);
         localStorage.setItem('token', token);
+        console.log(token)
 
         window.location.href = 'tela_publicacao_publica.html';
       })
